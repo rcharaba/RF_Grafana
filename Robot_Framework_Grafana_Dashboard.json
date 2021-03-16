@@ -17,7 +17,7 @@
   "gnetId": 12728,
   "graphTooltip": 0,
   "id": 1,
-  "iteration": 1615854711685,
+  "iteration": 1615861463921,
   "links": [],
   "panels": [
     {
@@ -946,7 +946,6 @@
       "steppedLine": false,
       "targets": [
         {
-          "alias": "",
           "groupBy": [
             {
               "params": [
@@ -1036,12 +1035,11 @@
       {
         "allValue": null,
         "current": {
-          "selected": true,
-          "text": "389",
-          "value": "389"
+          "selected": false,
+          "text": "390",
+          "value": "390"
         },
         "datasource": "InfluxDB",
-        "definition": "",
         "error": null,
         "hide": 0,
         "includeAll": false,
@@ -1049,7 +1047,7 @@
         "multi": false,
         "name": "build_no",
         "options": [],
-        "query": "SELECT build_number FROM \"autogen\".\"rf_results\" WHERE (\"project_path\"='ets12-robot-tests') ",
+        "query": "SELECT build_number FROM \"autogen\".\"rf_results\" WHERE (\"project_name\"='$project_name' ) ",
         "refresh": 1,
         "regex": "",
         "skipUrlSync": false,
@@ -1068,6 +1066,7 @@
           "value": "ets12-robot-tests"
         },
         "datasource": "InfluxDB",
+        "definition": "",
         "error": null,
         "hide": 0,
         "includeAll": false,
@@ -1108,5 +1107,5 @@
   "timezone": "",
   "title": "Robot Framework Grafana Dashboard",
   "uid": "7lCc3gVMz",
-  "version": 13
+  "version": 14
 }
