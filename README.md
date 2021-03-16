@@ -17,8 +17,8 @@ Execution Trend Graph
 REF: https://grafana.com/grafana/dashboards/11541
 
 ### Prerequisites
-1. Jenkins installed in your DEV envioriment
-2. Grafana/InfluxDB(version: 1.8.3) installed in your DEV envioriment
+1. Jenkins installed in your DEV environment
+2. Grafana/InfluxDB(version: 1.8.3) installed in your DEV environment
 3. Install Robot Framework plugin on Jenkins [click here](https://plugins.jenkins.io/robot/)
 4. Intall InfluxDB plugin on Jenkins [click here](https://plugins.jenkins.io/influxdb/)
 
@@ -39,7 +39,7 @@ Now to access influxDB using CLI:
 ```
 $ influx -username 'username' -password 'password'
 ```
-Create your databse:
+Create your database:
 ```
 CREATE DATABASE robotdb
 ```
@@ -55,7 +55,7 @@ robotdb
 
 ### Configuring InfluxDB (Jenkins side)
 
-In Jenkins you have to do 2 configuration:
+Inside Jenkins you have to do 2 configuration:
 
 1. In "Manage Jenkins" > "Configure System"
 ![alt text](https://github.com/rcharaba/RF_Grafana/blob/main/Jenkins_InfluxDB_general_config.png) 
