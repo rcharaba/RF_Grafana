@@ -1062,8 +1062,8 @@
         "allValue": null,
         "current": {
           "selected": true,
-          "text": "ets12-robot-tests",
-          "value": "ets12-robot-tests"
+          "text": "RobotTests",
+          "value": "RobotTests"
         },
         "datasource": "InfluxDB",
         "definition": "",
