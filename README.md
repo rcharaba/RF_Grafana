@@ -1,5 +1,7 @@
 # RF_Grafana
-Robot Framework Grafana Dashboard using Jenkins influxdb plugin as exporter  
+Robot Framework Grafana Dashboard using Jenkins influxdb plugin as exporter 
+
+![alt text](https://github.com/rcharaba/RF_Grafana/blob/main/Diagram.PNG)   
 
 ![alt text](https://github.com/rcharaba/RF_Grafana/blob/main/Grafana_RF_Dashboard.PNG) 
 
