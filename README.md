@@ -9,7 +9,7 @@ Metrics Covered By Robot Framework Grafana Dashboard :
 
 Execution Status - By build number    
 Total Executions - Over Time Period    
-Average Pass and Failure Percentage  
+Average Pass Percentage  
 EMTE - Equivalent Manual Test Effort    
 Top 10 Failed Test Cases    
 All Execution Status By build number   
