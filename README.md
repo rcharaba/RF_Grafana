@@ -72,3 +72,9 @@ Inside Jenkins you have to do 2 configuration:
 
 2. Import the Robot Framework dashboad in "Create" > "Import"
 3. Copy and paste the [json](https://github.com/rcharaba/RF_Grafana/blob/main/Robot_Framework_Grafana_Dashboard.json) file content and click in "Load"
+4. Enjoy! :)
+
+## Authors
+
+* **Rodrigo Charaba** - https://github.com/rcharaba 
+
